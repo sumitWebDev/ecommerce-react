@@ -8,7 +8,7 @@ class Header extends React.Component {
     return (
       
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+        <div className="container">
           <a className="navbar-brand" href="#">
             <img src={logo} />
           </a>
@@ -45,8 +45,8 @@ class Header extends React.Component {
                 <a className="nav-link" href="#">Register</a>
             </li>
             </ul>
-            <div class="minicart">
-            <img class="cart-image" src={cart} />
+            <div className="minicart">
+            <img className="cart-image" src={cart} />
                 <p>O items</p>
             </div>
             </span>
